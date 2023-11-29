@@ -134,7 +134,7 @@ resource "aws_lb_target_group_attachment" "web-1" {
   port             = 80
 }
 
-resource "aws_lb_target_group_attachment" "web-1" {
+resource "aws_lb_target_group_attachment" "web-2" {
   target_group_arn = aws_lb_target_group.tg.arn
   target_id        = aws_instance.web-2.id
   port             = 80
