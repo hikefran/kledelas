@@ -115,7 +115,7 @@ resource "aws_lb_target_group" "tg" {
   name     = "tg-hike"
   protocol = "HTTP"
   port     = "80"
-  vpc_id   = aws_vpc.vpc.id
+  vpc_id   = aws_vpc.web.id
 }
 
 resource "aws_lb_listener" "ec2_lb_listener" {
