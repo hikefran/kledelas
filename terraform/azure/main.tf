@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "web" {
-  name     = "iac-resource"
+  name     = "nada-com-nada"
   location = "East US"
 }
 
