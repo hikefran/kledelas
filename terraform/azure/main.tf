@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "web" {
-  name     = "nada-com-nada"
+  name     = "VAIPALEMEIRAS"
   location = "East US"
 }
 
