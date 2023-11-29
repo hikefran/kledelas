@@ -30,11 +30,11 @@ resource "aws_route_table" "web" {
   }
 }
 
-resource "aws_route_table_association" "web" {
+resource "aws_route_table_association" "web-1" {
   subnet_id      = aws_subnet.web-1.id
   route_table_id = aws_route_table.web.id
 }
-resource "aws_route_table_association" "web" {
+resource "aws_route_table_association" "web-2" {
   subnet_id      = aws_subnet.web-2.id
   route_table_id = aws_route_table.web.id
 }
